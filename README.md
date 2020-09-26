@@ -1,5 +1,5 @@
 # Trinsic's Verifier Reference App
-This demo shows how to issue a connectionless credential and request a connectionless verification.
+**This** demo shows how to issue a connectionless credential and request a connectionless verification.
 It is a Node.js Express app which makes Trinsic Credential API calls with our service client.
 
 ## Use Case
