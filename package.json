@@ -2,7 +2,10 @@
   "name": "verifier-reference-app",
   "version": "1.1.0",
   "private": true,
-  "description": "",
+  "description": "This demo shows how to issue a connectionless credential and request a connectionless verification. It is a Node.js Express app which makes Trinsic Credential API calls with our service client.",
+  "engines": {
+    "node": "10.x"
+  },
   "scripts": {
     "start": "node ./bin/www"
   },
@@ -17,5 +20,20 @@
     "morgan": "~1.9.1",
     "ngrok": "^3.2.7",
     "serve": "^11.3.1"
-  }
+  },
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wksantiago/verifier-reference-app-demo.git"
+  },
+  "keywords": [
+    "example",
+    "heroku"
+  ],
+  "author": "William K Santiago",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/wksantiago/verifier-reference-app-demo/issues"
+  },
+  "homepage": "https://github.com/wksantiago/verifier-reference-app-demo#readme"
 }
